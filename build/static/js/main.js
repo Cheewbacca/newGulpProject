@@ -1,3 +1,7 @@
-$(document).ready(function(){
-    alert('Hello, world!');
-});
+"use strict";
+
+var hello = function hello() {
+  return console.log('hello');
+};
+
+hello();
